@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.container{
+    background-color: #172837;
+    border: #172837 3px solid;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.screen{
+    font-family: 'Orbitron', sans-serif;
+    border: #172837 3px solid;
+    background-color: #335c18;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px; 
+}
+.screen p{
+    font-size: 30px;
+    padding-right: 8px;
+}
+.controllers{
+    width: 90%;
+    margin: 0 auto;
+    border:#172837 3px solid;
+}
+.buttons-lines{
+    display: flex; 
+    height: 50px;
+    align-items: center;
+}
+.buttons{
+    background-color:#494e53;
+    border: #172837 solid 2px;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#ce{
+    background-color: #831a1a;
+}
