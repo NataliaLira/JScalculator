@@ -27,6 +27,7 @@ body{
 .screen p{
     font-size: 30px;
     padding-right: 8px;
+    max-width: 100%;
 }
 .controllers{
     width: 90%;
