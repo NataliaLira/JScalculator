@@ -6,7 +6,7 @@ body{
 .container{
     background-color: #172837;
     border: #172837 3px solid;
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
     margin-top: 5%;
     border-radius: 20px;
@@ -40,7 +40,7 @@ body{
     align-items: center;
 }
 .buttons{
-    background-color:#494e53;
+    background-color:#7a8289;
     border: #172837 solid 2px;
     text-align: center;
     width: 25%;
@@ -49,5 +49,5 @@ body{
     font-size: 25px;
 }
 #ce{
-    background-color: #831a1a;
+    background-color: #a32222;
 }
