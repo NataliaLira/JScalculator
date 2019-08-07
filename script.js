@@ -22,19 +22,19 @@ for (let i = 0; i < buttons.length; i++) {
             }
         }
     }
-}
-
-//----calculating
-if (buttons[i].textContent == "="){
-    buttons[i].onclick = function (){
-    screen.value = eval(screen.value);
-    }
-} else if (buttons[i].textContent == "CE"){
-    buttons[i].onclick = function (){
-    screen.value = "";
-    } 
-} else {
-    buttons[i].onclick = function (){
-    screen.value += this.textContent;    
+    
+    //----calculating
+    if (buttons[i].textContent == "="){
+        buttons[i].onclick = function (){
+        screen.value = eval(screen.value);
+        }
+    } else if (buttons[i].textContent == "CE"){
+        buttons[i].onclick = function (){
+        screen.value = "";
+        } 
+    } else {
+        buttons[i].onclick = function (){
+        screen.value += this.textContent;    
+        }
     }
 }
